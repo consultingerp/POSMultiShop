@@ -20,6 +20,6 @@
     'installable': True,
     'application': True,
     'Author': "Eman Taha",
-    'price': 89.99,
+    'price': 79.99,
     'currency': 'EUR',
 }
