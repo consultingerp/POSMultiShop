@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'Pos Multi Shops',
+    'author': "Eman Taha",
     'category': 'Point Of Sale',
     'sequence': 20,
     'summary': 'Pos Multi Shops',
@@ -19,7 +20,6 @@
     'qweb': [],
     'installable': True,
     'application': True,
-    'Author': "Eman Taha",
     'price': 79.99,
     'currency': 'EUR',
 }
