@@ -152,5 +152,23 @@
             <field name="groups" eval="[(6, 0, [ref('pos_multi_shops.group_shop_manager')])]"/>
         </record>
 
+	<!-- pos orders -->
+        <record id="shop_user_see_his_orders" model="ir.rule">
+            <field name="name">Shop User See His Orders Only</field>
+            <field name="model_id" ref="point_of_sale.model_pos_order"/>
+            <field name="global" eval="False"/>
+            <field name="domain_force">[('shop_id.id','=', user.shop_id.id)]</field>
+            <field name="groups" eval="[(6, 0, [ref('pos_multi_shops.group_shop_user')])]"/>
+        </record>
+
+        <!-- Manager -->
+        <record id="shop_manager_see_all_orders" model="ir.rule">
+            <field name="name">Shop manager See All Orders</field>
+            <field name="model_id" ref="point_of_sale.model_pos_order"/>
+            <field name="global" eval="False"/>
+            <field name="domain_force">[]</field>
+            <field name="groups" eval="[(6, 0, [ref('pos_multi_shops.group_shop_manager')])]"/>
+        </record>
+
 	</data>
 </odoo>
