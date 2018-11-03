@@ -21,7 +21,6 @@
     'images': ['images/main_screenshot.png'],
     'installable': True,
     'application': True,
-    'license': 'OPL-1',
     'price': 80.00,
     'currency': 'EUR',
 }
