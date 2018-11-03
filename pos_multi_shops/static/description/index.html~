@@ -1,0 +1,70 @@
+<section class="oe_container oe_dark" style="overflow: hidden;
+background: #efefef;
+box-shadow: none;">
+    <div class="mt32 mb32">
+        <div class="col-md-12">
+            <h2 class="oe_slogan" style="font-size: 35px; text-align: center;"><span align="center" class="label label-success" style="background-color:#528df3;"> <span class="fa fa-star fa-spin"></span>Pos Multi Shops</span></h2>
+        </div>
+    </div>
+</section>
+        
+
+<section class="oe_container oe_dark">
+        <div class="oe_row oe_spaced">
+            <div class="oe_span12">
+            <h1 class="text-info" style="text-align: center;padding-bottom: 40px;"><strong>This module allows to</strong></h1>
+             <ul class="list-group">
+		<li class="list-group-item list-group-item-success"><h3 class="text-info" style="font-size: 25px;">add multiple shops</h3></li>
+		<li class="list-group-item list-group-item-info"><h3 class="text-info" style="font-size: 25px;">assign products, users, journals, pos to Each shop</h3></li>
+		<li class="list-group-item list-group-item-warning"><h3 class="text-info" style="font-size: 25px;">add normal users who see only his shop and it's products</h3></li>
+		<li class="list-group-item list-group-item-danger"><h3 class="text-info" style="font-size: 25px;">add manager users who can see all shops and all products</h3></li>
+	    </ul>
+            </div>
+        </div>
+</section>
+<br/>
+
+<section class="oe_container oe_dark">
+        <div class="oe_row oe_spaced">
+            <div class="oe_span12">
+            <h1 class="text-info" style="text-align: center;padding-bottom: 40px;"><strong>Usage</strong></h1>
+             <ul class="list-group">
+		<li class="list-group-item list-group-item-info"><h3 class="text-info" style="font-size: 25px;">once you install this module you can choose the user rule as "user" oR "manager"</h3></li>
+		<li class="list-group-item list-group-item-warning"><h3 class="text-info" style="font-size: 25px;">As a Manager now you can start creating shops and products to it</h3></li>
+		<li class="list-group-item list-group-item-danger"><h3 class="text-info" style="font-size: 25px;">As a user you can only see your shop and add & selling products based on your shop</h3></li>
+	    </ul>
+            </div>
+        </div>
+</section>
+<br/>
+
+<section class="oe_container oe_dark">
+        <div class="oe_row oe_spaced">
+            <div class="oe_span12">
+            <h1 class="text-info" style="text-align: center;padding-bottom: 40px;"><strong>Demo</strong></h1>
+            <a href="https://youtu.be/2p7gdFSmwY0"><h3 class="text-info" style="font-size: 25px;">Click Here For Demo</h3></a>
+            </div>
+        </div>
+</section>
+<br/>
+
+<section class="oe_container oe_dark">
+        <div class="oe_row oe_spaced">
+            <div class="oe_span12">
+            <h1 class="text-info" style="text-align: center;padding-bottom: 40px;"><strong>Bug Tracker</strong></h1>
+            <h3 class="text-info" style="font-size: 25px;">In case of trouble, please contact us at <strong>emeytahaz@gmail.com</strong> Or whatsapp @ <strong>002-01021281442</strong></h3>
+            </div>
+        </div>
+</section>
+<br/>
+
+<section class="oe_container oe_dark">
+        <div class="oe_row oe_spaced">
+            <div class="oe_span12">
+            <h1 class="text-info" style="text-align: center;padding-bottom: 40px;"><strong>Maintainer</strong></h1>
+<h3 class="text-info" style="font-size: 25px;">This module is maintained by <a href="https://www.facebook.com/almor.solutions">Almor</a></h3>            
+<h3 class="text-info" style="font-size: 25px;">For support and more information, please contact us at <strong>emeytahaz@gmail.com</strong> Or whatsapp @ <strong>002-01021281442</strong></h3>
+            </div>
+        </div>
+</section>
+<br/>
