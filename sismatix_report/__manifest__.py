@@ -2,7 +2,7 @@
 {
     'name': 'Dynamic Tree View',
     'version': '1.0.1',
-    'Author': "Eman Taha",
+    'author': "Eman Taha",
     'website': 'emeytahaz@gmail.com',
     'category': 'Other',
     'sequence': 20,
