@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from odoo import api, fields, models, tools, _
+from openerp import api, fields, models, tools, _
 from lxml import etree
 
 class Shop(models.Model):
@@ -32,11 +32,12 @@ class PosOrderInherit(models.Model):
 	_inherit = "pos.order"
 
 	def _get_shop_id(self):
-		current_user = self.env['res.users'].search([('id', '=', self.env.uid)])
+		current_user = self.env['res.users'].search([('id', '=', self.env.user.id)])
 		if current_user.shop_id:
 			return current_user.shop_id.id
-
-	shop_id = fields.Many2one('shop', string='Shop', default=_get_shop_id)
+		
+		# , default=_get_shop_id
+	shop_id = fields.Many2one('shop', string='Shop')
 
 class PosOrderLineInherit(models.Model):
 	_inherit = "pos.order.line"
@@ -51,12 +52,19 @@ class PosOrderLineInherit(models.Model):
 		res['arch'] = etree.tostring(doc)
 		return res
 
-class ProductProductInherit(models.Model):
+class ProductTemplateInherit(models.Model):
 	_inherit = 'product.template'
+			
+	shop_id = fields.Many2one('shop', string='Shop')
+
+class ProductProductInherit(models.Model):
+	_inherit = 'product.product'
 
 	def _get_shop_id(self):
-		current_user = self.env['res.users'].search([('id', '=', self.env.uid)])
+		current_user = self.env['res.users'].search([('id', '=', self.env.user.id)])
 		if current_user.shop_id:
 			return current_user.shop_id.id
-
-	shop_id = fields.Many2one('shop', string='Shop', default=_get_shop_id)
+		
+		#, default=_get_shop_id
+			
+	shop_id = fields.Many2one('shop', string='Shop')

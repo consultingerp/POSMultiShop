@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<odoo>
-    <data>
-
-        <record id="product_kanban_view_inherit" model="ir.ui.view">
+<openerp>
+	<data>
+		<!--  <record id="product_kanban_view_inherit" model="ir.ui.view">
             <field name="name">Product Kanban</field>
             <field name="model">product.product</field>
             <field name="inherit_id" ref="product.product_kanban_view"/>
@@ -16,7 +15,7 @@
                     </templates>
                 </kanban>
             </field>
-        </record>
+        </record> -->
     	<!-- Form Views -->
     	<!-- shop form view -->
 	    <record id="shop_form_view" model="ir.ui.view">
@@ -137,7 +136,6 @@
         <record id="point_of_sale.menu_pos_products" model="ir.ui.menu">
             <field name="parent_id" ref="product_menu"/>
         </record>
-        
-
-    </data>
-</odoo>
+       
+	</data>
+</openerp>
