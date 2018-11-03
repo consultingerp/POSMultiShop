@@ -18,10 +18,8 @@
     'demo': [
     ],
     'qweb': [],
-    'images': ['images/main_screenshot.png'],
     'installable': True,
     'application': True,
-    'license': 'OPL-1',
     'price': 79.99,
     'currency': 'EUR',
 }
