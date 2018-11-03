@@ -39,7 +39,7 @@ box-shadow: none;">
 </section>
 <br/>
 
-<!--<section class="oe_container oe_dark">
+<section class="oe_container oe_dark">
         <div class="oe_row oe_spaced">
             <div class="oe_span12">
             <h1 class="text-info" style="text-align: center;padding-bottom: 40px;"><strong>Demo</strong></h1>
@@ -47,7 +47,7 @@ box-shadow: none;">
             </div>
         </div>
 </section>
-<br/>-->
+<br/>
 
 <section class="oe_container oe_dark">
         <div class="oe_row oe_spaced">
