@@ -10,6 +10,7 @@
     'depends': ['web'],
     'data': [
         'security/sismatix_security.xml',
+        'security/ir.model.access.csv',
         'views/ir_model_fields_view.xml',
         'views/sismatix_report.xml',
         'report/report_sismatix.xml',

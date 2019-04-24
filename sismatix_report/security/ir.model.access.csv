@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+
+access_user_copy_view,access.user.copy.view,sismatix_report.model_copy_view,base.group_user,1,1,1,1
+access_user_favorite_view,access.user.favorite.view,sismatix_report.model_favorite_view,base.group_user,1,1,1,1
+access_user_ir_view,access.user.ir.view,base.model_ir_ui_view,base.group_user,1,1,1,1
+access_user_change_tree_fields,access.user.change.tree.fields,sismatix_report.model_change_tree_fields,base.group_user,1,1,1,1
+access_user_ir_model_fields,access.user.ir.model.fields,base.model_ir_model_fields,base.group_user,1,1,1,1
